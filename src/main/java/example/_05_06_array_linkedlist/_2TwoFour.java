@@ -1,4 +1,4 @@
-package _05_06_array_linkedlist;
+package example._05_06_array_linkedlist;
 
 import util.ListNode;
 

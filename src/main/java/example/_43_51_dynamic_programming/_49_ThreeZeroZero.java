@@ -1,4 +1,4 @@
-package _43_51_dynamic_programming;
+package example._43_51_dynamic_programming;
 
 import java.util.ArrayList;
 import java.util.Arrays;

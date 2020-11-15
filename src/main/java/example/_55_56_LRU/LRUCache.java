@@ -1,4 +1,4 @@
-package _55_56_LRU;
+package example._55_56_LRU;
 
 import java.util.HashMap;
 import java.util.Map;

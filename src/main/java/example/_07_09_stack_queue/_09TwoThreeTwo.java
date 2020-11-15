@@ -1,4 +1,4 @@
-package _07_09_stack_queue;
+package example._07_09_stack_queue;
 
 import java.util.Stack;
 

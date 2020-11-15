@@ -1,4 +1,4 @@
-package _34_35_binary_search;
+package example._34_35_binary_search;
 
 /**
  * https://leetcode-cn.com/problems/sqrtx/

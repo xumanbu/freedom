@@ -1,7 +1,6 @@
-package _13_16_hash;
+package example._13_16_hash;
 
 import java.util.Arrays;
-import java.util.HashMap;
 
 /**
  * https://leetcode-cn.com/problems/valid-anagram/

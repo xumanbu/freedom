@@ -1,4 +1,4 @@
-package _10_12_PriorityQueue;
+package example._10_12_PriorityQueue;
 
 import java.util.PriorityQueue;
 

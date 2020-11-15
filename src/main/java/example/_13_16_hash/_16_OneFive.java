@@ -1,4 +1,4 @@
-package _13_16_hash;
+package example._13_16_hash;
 
 import java.util.ArrayList;
 import java.util.Arrays;

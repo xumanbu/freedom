@@ -1,4 +1,4 @@
-package _24_25_greedy;
+package example._24_25_greedy;
 
 /**
  * https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/

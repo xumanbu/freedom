@@ -1,4 +1,4 @@
-package _39_42_bit;
+package example._39_42_bit;
 
 /**
  * https://leetcode-cn.com/problems/n-queens-ii/

@@ -1,4 +1,4 @@
-package _31_33_cut;
+package example._31_33_cut;
 
 /**
  * https://leetcode-cn.com/problems/valid-sudoku/

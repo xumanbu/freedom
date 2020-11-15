@@ -1,4 +1,4 @@
-package _52_54_Find_union;
+package example._52_54_Find_union;
 
 import util.Union_Find_Set;
 

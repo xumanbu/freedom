@@ -1,4 +1,4 @@
-package _43_51_dynamic_programming;
+package example._43_51_dynamic_programming;
 
 /**
  * https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/

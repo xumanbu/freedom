@@ -2,11 +2,11 @@ package com.feiwang.freedom.graph;
 
 import java.util.*;
 
-public class XGraph {
+public class GraphByList {
     int v;
     private LinkedList<Integer> adj[]; // 邻接表
 
-    public XGraph(int nodeSize){
+    public GraphByList(int nodeSize){
         this.v = nodeSize;
         adj = new LinkedList[v];
         for (int i=0; i<v; ++i) {
@@ -20,7 +20,18 @@ public class XGraph {
 
 
 
-    public void topoSortByKahn() {
+    public void bfs(int s,int t){
+        Queue waitVisit = new LinkedList();
+        waitVisit.add(s);
+
+        waitVisit.poll();
+    }
+
+    public void dfs(){
+
+    }
+
+    public void topSortByKahn() {
         int[] inDegree = new int[v]; // 统计每个顶点的入度
         for (int i = 0; i < v; ++i) {
             for (int j = 0; j < adj[i].size(); ++j) {

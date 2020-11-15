@@ -1,4 +1,4 @@
-package _36_38_trie;
+package example._36_38_trie;
 
 import java.util.LinkedList;
 import java.util.List;

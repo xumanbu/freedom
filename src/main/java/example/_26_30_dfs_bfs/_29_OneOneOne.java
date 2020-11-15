@@ -1,4 +1,4 @@
-package _26_30_dfs_bfs;
+package example._26_30_dfs_bfs;
 
 import util.TreeNode;
 

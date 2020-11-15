@@ -1,4 +1,4 @@
-package _20_23_recursion_divide;
+package example._20_23_recursion_divide;
 
 /**
  * https://leetcode-cn.com/problems/powx-n/
