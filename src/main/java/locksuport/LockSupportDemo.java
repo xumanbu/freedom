@@ -5,6 +5,7 @@ import java.util.concurrent.locks.LockSupport;
 public class LockSupportDemo {
 
     public static Object u = new Object();
+    // locksupport不影响wait锁的问题
     static ChangeObjectThread t1 = new ChangeObjectThread("t1");
     static ChangeObjectThread t2 = new ChangeObjectThread("t2");
 
@@ -13,14 +14,14 @@ public class LockSupportDemo {
             super(name);
         }
         @Override public void run() {
-            synchronized (u) {
+            //synchronized (u) {
                 System.out.println("in " + getName());
                 LockSupport.park();
                 if (Thread.currentThread().isInterrupted()) {
                     System.out.println("被中断了");
                 }
                 System.out.println("继续执行");
-            }
+            //}
         }
     }
 
